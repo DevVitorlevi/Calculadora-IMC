@@ -1,0 +1,18 @@
+@media screen and (min-width:768px)
+{
+    .container{
+        font-size: 30px;
+        padding: 40px;
+        width: 300px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    #calcular{
+        padding:10px;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        width: 120px;
+        
+    }
+}

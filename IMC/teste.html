@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>teste</p>
+    <input type="text" name="teste" id="txt">
+    <input type="button" value="click" onclick="toque()">
+    <script>
+        function toque(){
+            var teste = document.getElementById('txt')
+            if(teste.value.length == 0){
+                alert('erro')
+            }else{
+                alert('tudo ok')
+            }
+        }
+    </script>
+</body>
+</html>
